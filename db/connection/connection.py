@@ -1,5 +1,5 @@
 import sqlite3 as sqlite
-from db.resources.db_config import *
+from db.config.db_config import *
 from utils.system_events import pausa
 
 

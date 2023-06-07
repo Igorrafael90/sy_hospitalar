@@ -1,5 +1,5 @@
 import sqlite3 as sqlite
-from db.resources.db_config import DB_PATH
+from db.config.db_config import DB_PATH
 
 from utils.system_events import *
 
