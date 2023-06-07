@@ -2,8 +2,6 @@ import sqlite3 as sqlite
 from db.config.db_config import *
 from utils.system_events import pausa
 
-
-
 def inicializa_database():
     conexao = None
     cursor = None
