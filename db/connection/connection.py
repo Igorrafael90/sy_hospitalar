@@ -1,9 +1,8 @@
 import sqlite3 as sqlite
-
+from db.resources.db_config import *
 from utils.system_events import pausa
 
-DB_PATH = 'db/resources/database.db'
-DB_INITIAL_STRUCTURE_COMAND = 'db/resources/init_db_commands.txt'
+
 
 def inicializa_database():
     conexao = None
