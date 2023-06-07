@@ -419,7 +419,6 @@ def altera_enfermeira():
         mensagem = 'Ainda não há Enfermeiras Cadastradas!'
         mensagem_query_vazia(titulo, mensagem)
 
-#------------------------------------------------------
 
 def menu_relatorios_enfermeira():
     quant_opcoes = 3
@@ -584,7 +583,6 @@ def lista_medicos_enfermeira():
         mensagem = 'Ainda não há Enfermeiras Cadastradas!'
         mensagem_query_vazia(titulo, mensagem)
 
-#------------------------------------------------------
 
 def exclui_dependencias(coren:str):
     comando = '''DELETE FROM Hospital_x_Enfermeira WHERE coren=:coren'''
@@ -639,4 +637,3 @@ def exclui_enfermeira():
         mensagem = 'Ainda não há Enfermeiras Cadastradas!'
         mensagem_query_vazia(titulo, mensagem)
 
-#------------------------------------------------------
