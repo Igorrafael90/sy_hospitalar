@@ -1,5 +1,6 @@
 from db.controllers.db_events_controller import *
-from models import Endereco, Enfermeira
+from models.Enfermeira import Enfermeira
+from models.Endereco import Endereco
 from utils.system_events import *
 from utils.filters import *
 from utils.validator import *

@@ -1,6 +1,8 @@
 from db.controllers import *
 from db.controllers.db_events_controller import altera_db
-from models import Endereco, Handling
+from models.Endereco import Endereco
+from models.Handling import Handling
+# from models.Handling import Handling
 from utils.console_utils.console_prints import *
 from utils.console_utils.messages_prints import *
 from utils.system_events import *
